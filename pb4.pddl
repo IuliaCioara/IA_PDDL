@@ -1,0 +1,7 @@
+(define (problem coffee)
+   (:domain CoffeeShop)
+   (:objects cl)
+   (:init (testL cl) (testC cl) (testCard cl) (=(total-cost)0))
+   (:goal (AlegeCafea cl))
+   (:metric minimize(total-cost))
+)
